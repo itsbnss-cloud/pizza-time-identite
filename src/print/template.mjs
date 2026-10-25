@@ -1,5 +1,5 @@
 // Gabarit de la charte PDF — A4 paysage (297 × 210 mm), une <section> par page.
-import { brand, asset, byStatus, color, esc, img, crop, rgbStr, cmykStr, mockups, manifest, anatomySvg, mockup, photo } from '../shared.mjs';
+import { brand, asset, byStatus, color, esc, img, crop, rgbStr, cmykStr, manifest, anatomySvg, mockup, photo } from '../shared.mjs';
 
 const A = '../dist/assets';
 const { meta, palette, context, comparison, anatomy, details, sections } = brand;
@@ -10,7 +10,6 @@ const sec = (id) => sections.find((s) => s.id === id);
 const kicker = (id, txt) => `<p class="k"><span class="k__n">${sec(id).n}</span>${txt ?? sec(id).t}</p>`;
 
 export function renderPrint() {
-  const mk = mockups(A);
   const main = asset('logo-principal');
   const pages = [];
   // bg : fond de page ; sid : section (sommaire) ; folio : affiche la pagination
@@ -268,19 +267,6 @@ export function renderPrint() {
       <div class="plvp__s">${plvImg('plv-story')}</div>
     </div>
     <p class="sim">${brand.plvText.note}</p>`);
-
-  // 24 — Applications : réseaux sociaux
-  page('red', 'applications', `
-    <div class="g g--social">
-      <div>
-        ${kicker('applications', 'Réseaux sociaux')}
-        <h2 class="t2">Publication & story.</h2>
-        <p class="lead lead--s">Le logo principal porte la publication carrée ; la story associe la version sans cadre et la hiérarchie typographique.</p>
-        <p class="sim">${brand.applications.note} ${brand.applications.sample}</p>
-      </div>
-      <div class="app__mk app__mk--post">${mk.post}</div>
-      <div class="app__mk app__mk--story">${mk.story}</div>
-    </div>`);
 
   // Pictogrammes
   const ways = [['rouge', 'cream', 'Contour rouge'], ['vert', 'cream', 'Contour vert'], ['creme', 'green', 'Crème']];

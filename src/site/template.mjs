@@ -1,5 +1,5 @@
 // Gabarit du site de présentation (une page, sections ancrées).
-import { brand, asset, byStatus, color, esc, img, crop, rgbStr, cmykStr, mockups, manifest, anatomySvg, mockup, photo } from '../shared.mjs';
+import { brand, asset, byStatus, color, esc, img, crop, rgbStr, cmykStr, manifest, anatomySvg, mockup, photo } from '../shared.mjs';
 
 const A = 'assets';
 const { meta, palette, context, comparison, anatomy, details, sections } = brand;
@@ -24,7 +24,6 @@ const sectionHead = (id, kicker, title, lead = '') => `
   </header>`;
 
 export function renderSite() {
-  const mk = mockups(A);
   const main = asset('logo-principal');
 
   return `<!doctype html>
@@ -351,11 +350,6 @@ export function renderSite() {
         <figure class="plv__story reveal">${plvImg('plv-story')}</figure>
       </div>
       <p class="note note--cream reveal">${brand.plvText.note}</p>
-    </div>
-    <h3 class="label label--cream apps__label reveal">Réseaux sociaux — compositions à plat</h3>
-    <div class="apps">
-      <figure class="app app--post reveal">${mk.post}<figcaption>Publication carrée — logo principal sur rouge.</figcaption></figure>
-      <figure class="app app--story reveal">${mk.story}<figcaption>Story — version sans cadre et hiérarchie typographique. ${brand.applications.sample}</figcaption></figure>
     </div>
   </div>
 </section>

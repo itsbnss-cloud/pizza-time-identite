@@ -2,7 +2,7 @@
 // à partir de content/brand.mjs et du manifeste des assets.
 import fs from 'fs';
 import path from 'path';
-import { tokensCss, fontFaceCss, mockupCss } from '../src/shared.mjs';
+import { tokensCss, fontFaceCss } from '../src/shared.mjs';
 import { renderSite } from '../src/site/template.mjs';
 import { renderPrint } from '../src/print/template.mjs';
 import { sweepAppleDouble } from './sweep.mjs';
@@ -30,7 +30,7 @@ const fontMap = { 'Avigea.otf': 'Avigea.otf', 'Avigea Italic.otf': 'Avigea-Itali
 for (const [src, dest] of Object.entries(fontMap)) fs.copyFileSync(path.join(FONTS_SRC, src), path.join(DIST, 'fonts', dest));
 
 // Site
-fs.writeFileSync(path.join(DIST, 'styles.css'), `${tokensCss()}\n${fontFaceCss('fonts')}\n${mockupCss}\n${r('src/site/site.css')}`);
+fs.writeFileSync(path.join(DIST, 'styles.css'), `${tokensCss()}\n${fontFaceCss('fonts')}\n${r('src/site/site.css')}`);
 fs.copyFileSync(path.join(ROOT, 'src/site/site.js'), path.join(DIST, 'site.js'));
 fs.writeFileSync(path.join(DIST, 'index.html'), renderSite());
 fs.writeFileSync(path.join(DIST, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
@@ -39,7 +39,7 @@ fs.writeFileSync(path.join(DIST, '.nojekyll'), '');
 // Source du PDF
 const { html, total } = renderPrint();
 fs.writeFileSync(path.join(BUILD, 'print.html'), `<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Pizza Time — Charte graphique</title>
-<style>${tokensCss()}\n${fontFaceCss('../dist/fonts')}\n${mockupCss}\n${r('src/print/print.css')}</style></head><body>${html}</body></html>`);
+<style>${tokensCss()}\n${fontFaceCss('../dist/fonts')}\n${r('src/print/print.css')}</style></head><body>${html}</body></html>`);
 
 sweepAppleDouble(DIST);
 console.log(`✓ site → dist/index.html · PDF source → build/print.html (${total} pages)`);

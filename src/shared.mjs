@@ -58,46 +58,4 @@ export const fontFaceCss = (base) => `
 export const rgbStr = (p) => p.rgb.join(' · ');
 export const cmykStr = (p) => p.cmyk.join(' · ');
 
-// ---- Maquettes d'application (HTML/CSS à plat, mises à l'échelle par container queries)
-export const mockups = (base) => {
-  const m = brand.applications.menu;
-  return {
-    post: `<div class="mk mk-post" role="img" aria-label="Simulation : publication carrée pour les réseaux sociaux"><div class="mk-post__in">
-      ${img('logo-principal', base, { cls: 'mk-post__logo', alt: '' })}
-      <p class="mk-post__label">Nouvelle identité</p>
-    </div></div>`,
-    story: `<div class="mk mk-story" role="img" aria-label="Simulation : story verticale avec extrait de carte"><div class="mk-story__in">
-      <div class="mk-story__head">${img('logo-sans-cadre', base, { cls: 'mk-story__logo', alt: '' })}</div>
-      <p class="mk-story__kicker">La carte</p>
-      <ul class="mk-story__list">${m.map((x) => `<li><span class="mk-story__name">${x.name}</span><span class="mk-story__desc">${x.desc}</span><span class="mk-story__price">${x.price}</span></li>`).join('')}</ul>
-      <div class="mk-story__promo"><span>Offre du moment</span></div>
-      ${img('mention-vert', base, { cls: 'mk-story__mention', alt: '' })}
-    </div></div>`,
-  };
-};
-
-export const mockupCss = `
-.mk{container-type:inline-size;position:relative;overflow:hidden;font-family:var(--font-text)}
-.mk img{display:block;max-width:none}
-/* Publication */
-.mk-post{aspect-ratio:1/1;background:var(--red)}
-.mk-post__in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5cqw}
-.mk-post__logo{width:62cqw;height:auto}
-.mk-post__label{margin:0;color:var(--cream);font-size:4.4cqw;letter-spacing:.12em;text-transform:uppercase}
-/* Story */
-.mk-story{aspect-ratio:9/16;background:var(--cream);color:var(--green)}
-.mk-story__in{position:absolute;inset:0;padding:10cqw 8cqw 8cqw;display:flex;flex-direction:column}
-.mk-story__head{display:flex;justify-content:center;margin-bottom:9cqw}
-.mk-story__logo{width:52cqw;height:auto}
-.mk-story__kicker{margin:0 0 4cqw;font-size:4.6cqw;letter-spacing:.12em;text-transform:uppercase;color:var(--red);text-align:center}
-.mk-story__list{list-style:none;margin:0;padding:0;display:grid;gap:6cqw}
-.mk-story__list li{display:grid;grid-template-columns:1fr auto;column-gap:3cqw;border-top:.4cqw solid var(--green);padding-top:3cqw}
-.mk-story__name{font-family:var(--font-title);font-size:8.6cqw;line-height:1.05}
-.mk-story__price{font-size:6.4cqw;color:var(--red);grid-row:1;grid-column:2;align-self:center}
-.mk-story__desc{font-size:3.9cqw;grid-column:1/-1;margin-top:1cqw}
-.mk-story__promo{margin-top:auto;background:var(--green);color:var(--cream);border-radius:2cqw;padding:4cqw;text-align:center}
-.mk-story__promo span{font-family:var(--font-title);font-style:italic;font-size:9cqw}
-.mk-story__mention{width:34cqw;height:auto;margin:6cqw auto 0}
-`;
-
 export { brand };

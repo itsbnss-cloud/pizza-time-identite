@@ -303,16 +303,6 @@ th{font-weight:400;text-align:left}
 .dont__x::after{transform:rotate(-45deg)}
 
 /* 22–24 Applications */
-.g--app{grid-template-columns:1fr 1.1fr;gap:16mm;align-items:center}
-.app__mk .mk{border-radius:3mm;box-shadow:none;outline:.3mm solid rgba(14,71,37,.18)}
-.app__mk--box{width:118mm;justify-self:center}
-.app-wide{flex:1;display:grid;grid-template-columns:1fr 64mm;gap:10mm;align-items:center}
-.app__mk--sign .mk{width:100%}
-.app-wide__cap p{font-size:8.6pt}
-.g--social{grid-template-columns:1fr 84mm 62mm;gap:10mm;align-items:center}
-.app__mk--post{width:84mm}
-.app__mk--story{width:62mm}
-.pg--red .sim{opacity:.95}
 
 /* 25 Hors système */
 .off{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:10mm;min-height:0}

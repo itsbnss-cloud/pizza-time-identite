@@ -185,7 +185,7 @@ export const applications = {
     { id: 'boites-pile', caption: 'Boîtes crème : horizontale verte sur les chants.' },
     { id: 'boites-livraison', caption: 'Livraison : boîtes vertes, horizontale sur les chants ; casquette et manche.' },
   ],
-  note: 'Simulations de projection, à plat. Ce ne sont pas des fichiers de fabrication : formats, découpes et textes définitifs restent à établir.',
+  note: 'Mises en situation et visuels de campagne. Ce ne sont pas des fichiers de fabrication : formats, découpes et textes définitifs restent à établir.',
   sample: 'Textes et prix d’exemple.',
   menu: [
     { name: 'Margherita', desc: 'Tomate, mozzarella, basilic', price: '10,50 €' },

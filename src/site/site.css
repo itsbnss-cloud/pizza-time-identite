@@ -320,17 +320,6 @@ button,input,select{font:inherit;color:inherit}
 .shot figcaption{margin-top:12px;font-size:.86rem;opacity:.9}
 .shot--0{grid-column:1/-1}
 .shot:not(.shot--0) img{aspect-ratio:4/5;object-fit:cover}
-.apps__label{margin-top:clamp(56px,8vw,96px)}
-
-/* Applications */
-.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(16px,2.4vw,32px);align-items:end}
-.app{margin:0}
-.app figcaption{margin-top:12px;font-size:.86rem;opacity:.9}
-.app--box{grid-column:span 5}
-.app--sign{grid-column:span 7}
-.app--post{grid-column:2 / span 6}
-.app--story{grid-column:span 4}
-.app .mk{border-radius:16px;box-shadow:0 24px 40px -18px rgba(0,0,0,.45)}
 
 /* Hors système */
 .off{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}
@@ -420,9 +409,6 @@ button,input,select{font:inherit;color:inherit}
   .parts{grid-template-columns:1fr}
   .swatchbands{grid-template-columns:1fr;min-height:0}
   .band{min-height:300px}
-  .apps{grid-template-columns:repeat(6,1fr)}
-  .app--post{grid-column:span 4}
-  .app--story{grid-column:span 2}
   .field__head{grid-template-columns:1fr}
   .off{grid-template-columns:1fr}
   .evo__row{grid-template-columns:1fr 1.6fr 1.6fr;gap:16px}
@@ -452,8 +438,6 @@ button,input,select{font:inherit;color:inherit}
   .hier__scale li{grid-template-columns:1fr}
   .hier__lvl{grid-row:auto;margin-bottom:4px}
   .donts__grid{grid-template-columns:1fr 1fr}
-  .apps{grid-template-columns:1fr}
-  .app--post,.app--story{grid-column:1/-1}
   .shots{grid-template-columns:1fr}
   .off__item{grid-template-columns:1fr}
   .validate ul{columns:1}

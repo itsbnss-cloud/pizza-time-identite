@@ -3,29 +3,6 @@
 @font-face{font-family:'Avigea';src:url('fonts/Avigea.otf') format('opentype');font-style:normal;font-display:swap}
 @font-face{font-family:'Avigea';src:url('fonts/Avigea-Italic.otf') format('opentype');font-style:italic;font-display:swap}
 @font-face{font-family:'MADE Dillan';src:url('fonts/MADE-Dillan.otf') format('opentype');font-display:swap}
-
-.mk{container-type:inline-size;position:relative;overflow:hidden;font-family:var(--font-text)}
-.mk img{display:block;max-width:none}
-/* Publication */
-.mk-post{aspect-ratio:1/1;background:var(--red)}
-.mk-post__in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5cqw}
-.mk-post__logo{width:62cqw;height:auto}
-.mk-post__label{margin:0;color:var(--cream);font-size:4.4cqw;letter-spacing:.12em;text-transform:uppercase}
-/* Story */
-.mk-story{aspect-ratio:9/16;background:var(--cream);color:var(--green)}
-.mk-story__in{position:absolute;inset:0;padding:10cqw 8cqw 8cqw;display:flex;flex-direction:column}
-.mk-story__head{display:flex;justify-content:center;margin-bottom:9cqw}
-.mk-story__logo{width:52cqw;height:auto}
-.mk-story__kicker{margin:0 0 4cqw;font-size:4.6cqw;letter-spacing:.12em;text-transform:uppercase;color:var(--red);text-align:center}
-.mk-story__list{list-style:none;margin:0;padding:0;display:grid;gap:6cqw}
-.mk-story__list li{display:grid;grid-template-columns:1fr auto;column-gap:3cqw;border-top:.4cqw solid var(--green);padding-top:3cqw}
-.mk-story__name{font-family:var(--font-title);font-size:8.6cqw;line-height:1.05}
-.mk-story__price{font-size:6.4cqw;color:var(--red);grid-row:1;grid-column:2;align-self:center}
-.mk-story__desc{font-size:3.9cqw;grid-column:1/-1;margin-top:1cqw}
-.mk-story__promo{margin-top:auto;background:var(--green);color:var(--cream);border-radius:2cqw;padding:4cqw;text-align:center}
-.mk-story__promo span{font-family:var(--font-title);font-style:italic;font-size:9cqw}
-.mk-story__mention{width:34cqw;height:auto;margin:6cqw auto 0}
-
 /* Site de présentation Pizza Time — les jetons de couleur et @font-face
    sont injectés en tête de fichier par scripts/build.mjs depuis content/brand.mjs. */
 
@@ -348,17 +325,6 @@ button,input,select{font:inherit;color:inherit}
 .shot figcaption{margin-top:12px;font-size:.86rem;opacity:.9}
 .shot--0{grid-column:1/-1}
 .shot:not(.shot--0) img{aspect-ratio:4/5;object-fit:cover}
-.apps__label{margin-top:clamp(56px,8vw,96px)}
-
-/* Applications */
-.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(16px,2.4vw,32px);align-items:end}
-.app{margin:0}
-.app figcaption{margin-top:12px;font-size:.86rem;opacity:.9}
-.app--box{grid-column:span 5}
-.app--sign{grid-column:span 7}
-.app--post{grid-column:2 / span 6}
-.app--story{grid-column:span 4}
-.app .mk{border-radius:16px;box-shadow:0 24px 40px -18px rgba(0,0,0,.45)}
 
 /* Hors système */
 .off{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px)}
@@ -448,9 +414,6 @@ button,input,select{font:inherit;color:inherit}
   .parts{grid-template-columns:1fr}
   .swatchbands{grid-template-columns:1fr;min-height:0}
   .band{min-height:300px}
-  .apps{grid-template-columns:repeat(6,1fr)}
-  .app--post{grid-column:span 4}
-  .app--story{grid-column:span 2}
   .field__head{grid-template-columns:1fr}
   .off{grid-template-columns:1fr}
   .evo__row{grid-template-columns:1fr 1.6fr 1.6fr;gap:16px}
@@ -480,8 +443,6 @@ button,input,select{font:inherit;color:inherit}
   .hier__scale li{grid-template-columns:1fr}
   .hier__lvl{grid-row:auto;margin-bottom:4px}
   .donts__grid{grid-template-columns:1fr 1fr}
-  .apps{grid-template-columns:1fr}
-  .app--post,.app--story{grid-column:1/-1}
   .shots{grid-template-columns:1fr}
   .off__item{grid-template-columns:1fr}
   .validate ul{columns:1}
