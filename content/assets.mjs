@@ -155,8 +155,8 @@ export const MOCKUPS = [
 // Pictogrammes et motifs du designer (dossier « Patern + Icones », jamais modifié).
 // Copies conformes : aucune retouche de couleur ni de tracé.
 export const GRAPHICS_DIR = '../Patern + Icones ';
-const iconNames = ['salade', 'boisson', 'tenders', 'dessert', 'sandwich', 'pizza'];
-const iconLabels = ['Salade', 'Boisson', 'Tenders', 'Dessert', 'Sandwich', 'Pizza'];
+const iconNames = ['salade', 'boisson', 'finger-food', 'dessert', 'sandwich', 'pizza'];
+const iconLabels = ['Salade', 'Boisson', 'Finger food', 'Dessert', 'Sandwich', 'Pizza'];
 const ways = [['rouge', 26], ['vert', 32], ['creme', 38]];
 export const ICONS = iconNames.flatMap((n, i) => ways.map(([w, start]) => ({
   id: `picto-${n}-${w}`, name: n, label: iconLabels[i], way: w, src: `Fichier ${start + i}pizza time.svg`, file: `pizza-time_picto_${n}_${w}.svg`,

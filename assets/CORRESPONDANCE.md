@@ -79,9 +79,9 @@ Copies conformes (aucune retouche) depuis `Patern + Icones/` et `Visuels PLV/`.
 | Fichier 27pizza time.svg | `pictos/pizza-time_picto_boisson_rouge.svg` |
 | Fichier 33pizza time.svg | `pictos/pizza-time_picto_boisson_vert.svg` |
 | Fichier 39pizza time.svg | `pictos/pizza-time_picto_boisson_creme.svg` |
-| Fichier 28pizza time.svg | `pictos/pizza-time_picto_tenders_rouge.svg` |
-| Fichier 34pizza time.svg | `pictos/pizza-time_picto_tenders_vert.svg` |
-| Fichier 40pizza time.svg | `pictos/pizza-time_picto_tenders_creme.svg` |
+| Fichier 28pizza time.svg | `pictos/pizza-time_picto_finger-food_rouge.svg` |
+| Fichier 34pizza time.svg | `pictos/pizza-time_picto_finger-food_vert.svg` |
+| Fichier 40pizza time.svg | `pictos/pizza-time_picto_finger-food_creme.svg` |
 | Fichier 29pizza time.svg | `pictos/pizza-time_picto_dessert_rouge.svg` |
 | Fichier 35pizza time.svg | `pictos/pizza-time_picto_dessert_vert.svg` |
 | Fichier 41pizza time.svg | `pictos/pizza-time_picto_dessert_creme.svg` |
