@@ -109,6 +109,19 @@ for (const e of manifest.filter((m) => m.status === 'valide')) {
   await page.screenshot({ path: path.join(OUT, e.dir, 'png', png), omitBackground: true });
   e.png = `logos/${e.dir}/png/${png}`;
 }
+// Icônes du site : logo principal centré dans un carré (PNG pour Safari / iOS)
+{
+  const e = manifest.find((m) => m.id === 'logo-principal');
+  const svg = fs.readFileSync(path.join(OUT, e.dir, e.file), 'utf8');
+  const ico = path.join(ROOT, 'assets/icones');
+  fs.rmSync(ico, { recursive: true, force: true });
+  fs.mkdirSync(ico, { recursive: true });
+  for (const [name, size, bg, pad] of [['favicon-32.png', 32, 'transparent', 0], ['favicon-192.png', 192, 'transparent', 0.04], ['apple-touch-icon.png', 180, '#0E4725', 0.1]]) {
+    await page.setViewportSize({ width: size, height: size });
+    await page.setContent(`<html><body style="margin:0;width:${size}px;height:${size}px;background:${bg};display:flex;align-items:center;justify-content:center"><img style="width:${(1 - pad * 2) * 100}%" src="data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}"></body></html>`);
+    await page.screenshot({ path: path.join(ico, name), omitBackground: bg === 'transparent' });
+  }
+}
 await browser.close();
 
 // Pictogrammes et motifs du designer : copies conformes renommées

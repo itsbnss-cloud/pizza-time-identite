@@ -23,7 +23,7 @@ fs.mkdirSync(BUILD, { recursive: true });
 keep.forEach(([f, b]) => fs.writeFileSync(path.join(pdfDir, f), b));
 
 // Assets : logos organisés (sans les fichiers techniques macOS)
-for (const d of ['logos', 'mockups', 'plv', 'pictos', 'motifs']) fs.cpSync(path.join(ROOT, 'assets', d), path.join(DIST, 'assets', d), { recursive: true, filter: (s) => !path.basename(s).startsWith('._') && !s.endsWith('.DS_Store') });
+for (const d of ['logos', 'mockups', 'plv', 'pictos', 'motifs', 'icones']) fs.cpSync(path.join(ROOT, 'assets', d), path.join(DIST, 'assets', d), { recursive: true, filter: (s) => !path.basename(s).startsWith('._') && !s.endsWith('.DS_Store') });
 
 // Polices : utilisées par les pages, jamais proposées en téléchargement
 const fontMap = { 'Avigea.otf': 'Avigea.otf', 'Avigea Italic.otf': 'Avigea-Italic.otf', 'MADE Dillan PERSONAL USE.otf': 'MADE-Dillan.otf' };

@@ -35,7 +35,10 @@ export function renderSite() {
 <title>Pizza Time — ${meta.title}</title>
 <meta name="description" content="Présentation de la nouvelle identité visuelle de Pizza Time : logo, déclinaisons, couleurs, typographie et règles d’usage.">
 <meta name="theme-color" content="${color('green').hex}">
-<link rel="icon" href="${A}/${asset('logo-sans-cadre').path}" type="image/svg+xml">
+<link rel="icon" href="${A}/${asset('logo-principal').path}" type="image/svg+xml">
+<link rel="icon" href="${A}/icones/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="${A}/icones/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="${A}/icones/apple-touch-icon.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
