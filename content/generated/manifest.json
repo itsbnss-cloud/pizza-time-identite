@@ -1,0 +1,1247 @@
+{
+  "assets": [
+    {
+      "id": "logo-principal",
+      "src": "Fichier 8pizza time.svg",
+      "status": "valide",
+      "dir": "01_logo-principal",
+      "file": "pizza-time_logo-principal.svg",
+      "label": "Logo principal",
+      "role": "Version de référence : cartouche, bandeau vert, lettrage, mention « Depuis 1999 ».",
+      "usage": "Enseigne, packaging, couverture, prises de parole principales.",
+      "grounds": [
+        "cream",
+        "green",
+        "red"
+      ],
+      "path": "logos/01_logo-principal/pizza-time_logo-principal.svg",
+      "width": 1559.82,
+      "height": 1113.2,
+      "ratio": 1.4012,
+      "png": "logos/01_logo-principal/png/pizza-time_logo-principal_3000px.png"
+    },
+    {
+      "id": "logo-sans-cadre",
+      "src": "Fichier 13pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_logo-sans-cadre.svg",
+      "label": "Version sans cadre",
+      "role": "Le bandeau et le lettrage du logo principal, sans cartouche ni mention.",
+      "usage": "Sur fond crème uniquement : menus, papeterie, supports déjà cadrés.",
+      "grounds": [
+        "cream"
+      ],
+      "path": "logos/02_declinaisons/pizza-time_logo-sans-cadre.svg",
+      "width": 1402.23,
+      "height": 906.6,
+      "ratio": 1.5467,
+      "png": "logos/02_declinaisons/png/pizza-time_logo-sans-cadre_3000px.png"
+    },
+    {
+      "id": "horizontal-vert",
+      "src": "Fichier 5pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_vert.svg",
+      "label": "Horizontale — verte",
+      "role": "Déclinaison horizontale de référence, cernée d’un liseré crème.",
+      "usage": "Bandeaux, en-têtes de site, façades étroites, réseaux sociaux.",
+      "grounds": [
+        "cream",
+        "green",
+        "red"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_vert.svg",
+      "width": 2792.02,
+      "height": 614.68,
+      "ratio": 4.5422,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_vert_3000px.png"
+    },
+    {
+      "id": "horizontal-rouge",
+      "src": "Fichier 3pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_rouge.svg",
+      "label": "Horizontale — rouge",
+      "role": "Fond rouge, « TIME » dans le bloc crème.",
+      "usage": "Supports promotionnels, sur fond crème ou vert.",
+      "grounds": [
+        "cream",
+        "green"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_rouge.svg",
+      "width": 2776.28,
+      "height": 598.94,
+      "ratio": 4.6353,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_rouge_3000px.png"
+    },
+    {
+      "id": "horizontal-vert-bicolore",
+      "src": "Fichier 4pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_vert-bicolore.svg",
+      "label": "Horizontale — vert et crème",
+      "role": "Version bicolore, sans rouge.",
+      "usage": "Impressions deux tons, tampons, marquages simples.",
+      "grounds": [
+        "cream",
+        "red"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_vert-bicolore.svg",
+      "width": 2776.28,
+      "height": 598.94,
+      "ratio": 4.6353,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_vert-bicolore_3000px.png"
+    },
+    {
+      "id": "horizontal-creme-vert",
+      "src": "Fichier 6pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_creme-vert.svg",
+      "label": "Horizontale — crème et vert",
+      "role": "Fond crème, lettrage vert.",
+      "usage": "Sur fond vert ou rouge, ou sur photo sombre.",
+      "grounds": [
+        "green",
+        "red"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_creme-vert.svg",
+      "width": 2776.28,
+      "height": 598.94,
+      "ratio": 4.6353,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_creme-vert_3000px.png"
+    },
+    {
+      "id": "horizontal-creme-rouge",
+      "src": "Fichier 7pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_creme-rouge.svg",
+      "label": "Horizontale — crème et rouge",
+      "role": "Fond crème, lettrage rouge.",
+      "usage": "Sur fond vert ou rouge.",
+      "grounds": [
+        "green",
+        "red"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_creme-rouge.svg",
+      "width": 2776.28,
+      "height": 598.94,
+      "ratio": 4.6353,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_creme-rouge_3000px.png"
+    },
+    {
+      "id": "horizontal-sans-cadre",
+      "src": "Fichier 2pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_horizontal_sans-cadre.svg",
+      "label": "Horizontale — sans cadre",
+      "role": "« PIZZA » crème et bloc « TIME », sans fond.",
+      "usage": "Directement sur fond vert ou rouge.",
+      "grounds": [
+        "green",
+        "red"
+      ],
+      "family": "horizontal",
+      "path": "logos/02_declinaisons/pizza-time_horizontal_sans-cadre.svg",
+      "width": 2626.39,
+      "height": 505.65,
+      "ratio": 5.1941,
+      "png": "logos/02_declinaisons/png/pizza-time_horizontal_sans-cadre_3000px.png"
+    },
+    {
+      "id": "signature-lineaire",
+      "src": "Fichier 10pizza time.svg",
+      "status": "valide",
+      "dir": "02_declinaisons",
+      "file": "pizza-time_signature-lineaire_creme.svg",
+      "label": "Signature linéaire",
+      "role": "Lettrage sur une ligne et mention, monochrome crème.",
+      "usage": "Sur fond vert ou rouge : signatures, vidéos, petits espaces en longueur.",
+      "grounds": [
+        "green",
+        "red"
+      ],
+      "path": "logos/02_declinaisons/pizza-time_signature-lineaire_creme.svg",
+      "width": 1418.66,
+      "height": 320.19,
+      "ratio": 4.4307,
+      "png": "logos/02_declinaisons/png/pizza-time_signature-lineaire_creme_3000px.png"
+    },
+    {
+      "id": "cadre-contour",
+      "src": "Fichier 16pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_cadre_contour-vert.svg",
+      "label": "Cadre — contour vert",
+      "grounds": [
+        "cream"
+      ],
+      "path": "logos/03_composants/pizza-time_cadre_contour-vert.svg",
+      "width": 1559.82,
+      "height": 1113.2,
+      "ratio": 1.4012
+    },
+    {
+      "id": "cadre-fond",
+      "src": "Fichier 18pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_cadre_fond-creme.svg",
+      "label": "Cadre — fond crème",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_cadre_fond-creme.svg",
+      "width": 1506.85,
+      "height": 1064.49,
+      "ratio": 1.4156
+    },
+    {
+      "id": "lettrage-empile",
+      "src": "Fichier 19pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_lettrage-empile.svg",
+      "label": "Lettrage empilé",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_lettrage-empile.svg",
+      "width": 1256.14,
+      "height": 833.6,
+      "ratio": 1.5069
+    },
+    {
+      "id": "lettrage-empile-1999",
+      "src": "Fichier 20pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_lettrage-empile_depuis-1999.svg",
+      "label": "Lettrage empilé + mention",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_lettrage-empile_depuis-1999.svg",
+      "width": 1256.14,
+      "height": 919.9,
+      "ratio": 1.3655
+    },
+    {
+      "id": "mot-pizza-principal",
+      "src": "Fichier 22pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mot-pizza_logo-principal_creme.svg",
+      "label": "« PIZZA » du logo principal",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_mot-pizza_logo-principal_creme.svg",
+      "width": 1233.23,
+      "height": 363.54,
+      "ratio": 3.3923
+    },
+    {
+      "id": "mot-time-principal",
+      "src": "Fichier 23pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mot-time_logo-principal_rouge.svg",
+      "label": "« TIME » du logo principal",
+      "grounds": [
+        "cream"
+      ],
+      "path": "logos/03_composants/pizza-time_mot-time_logo-principal_rouge.svg",
+      "width": 1256.14,
+      "height": 396.82,
+      "ratio": 3.1655
+    },
+    {
+      "id": "mot-pizza-horizontal",
+      "src": "Fichier 24pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mot-pizza_horizontal_creme.svg",
+      "label": "« PIZZA » de l’horizontale",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_mot-pizza_horizontal_creme.svg",
+      "width": 1293.18,
+      "height": 355.81,
+      "ratio": 3.6345
+    },
+    {
+      "id": "mot-time-horizontal",
+      "src": "Fichier 25pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mot-time_horizontal_creme.svg",
+      "label": "« TIME » de l’horizontale",
+      "grounds": [
+        "red"
+      ],
+      "path": "logos/03_composants/pizza-time_mot-time_horizontal_creme.svg",
+      "width": 1126.25,
+      "height": 355.79,
+      "ratio": 3.1655
+    },
+    {
+      "id": "mention-vert",
+      "src": "Fichier 12pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mention-depuis-1999_vert.svg",
+      "label": "Mention « Depuis 1999 » — vert",
+      "grounds": [
+        "cream"
+      ],
+      "path": "logos/03_composants/pizza-time_mention-depuis-1999_vert.svg",
+      "width": 399.42,
+      "height": 47.07,
+      "ratio": 8.4857
+    },
+    {
+      "id": "mention-creme",
+      "src": "Fichier 21pizza time.svg",
+      "status": "composant",
+      "dir": "03_composants",
+      "file": "pizza-time_mention-depuis-1999_creme.svg",
+      "label": "Mention « Depuis 1999 » — crème",
+      "grounds": [
+        "green"
+      ],
+      "path": "logos/03_composants/pizza-time_mention-depuis-1999_creme.svg",
+      "width": 399.42,
+      "height": 47.07,
+      "ratio": 8.4857
+    },
+    {
+      "id": "alternative-cartouche-arrondi",
+      "src": "Fichier 9pizza time.svg",
+      "status": "alternative",
+      "dir": "04_alternatives-non-validees",
+      "file": "pizza-time_alternative_cartouche-arrondi.svg",
+      "label": "Cartouche arrondi",
+      "role": "Même lettrage dans un rectangle à coins arrondis : silhouette différente du logo principal.",
+      "usage": "Proposition alternative, non validée. Ne remplace pas le logo principal.",
+      "grounds": [
+        "cream"
+      ],
+      "path": "logos/04_alternatives-non-validees/pizza-time_alternative_cartouche-arrondi.svg",
+      "width": 949.7,
+      "height": 729.61,
+      "ratio": 1.3017
+    },
+    {
+      "id": "palette-reference",
+      "src": "Fichier 11pizza time.svg",
+      "status": "reference",
+      "dir": "05_references",
+      "file": "pizza-time_palette-reference.svg",
+      "label": "Palette de référence",
+      "keepAsIs": true,
+      "path": "logos/05_references/pizza-time_palette-reference.svg",
+      "width": 1957.95,
+      "height": 3515.04,
+      "ratio": 0.557
+    },
+    {
+      "id": "doublon-horizontal",
+      "src": "Fichier 1pizza time.svg",
+      "status": "exclu",
+      "label": "Doublon de « Fichier 5 » (tracés identiques, vert #084027 et liseré #FFF0DE)"
+    },
+    {
+      "id": "artefact-14",
+      "src": "Fichier 14pizza time.svg",
+      "status": "exclu",
+      "label": "Artefact d’export (micro-tracé de 1,6 × 2,1 unités, sans couleur)"
+    },
+    {
+      "id": "artefact-15",
+      "src": "Fichier 15pizza time.svg",
+      "status": "exclu",
+      "label": "Artefact d’export (micro-tracé de 1,3 × 1,1 unités, sans couleur)"
+    },
+    {
+      "id": "artefact-17",
+      "src": "Fichier 17pizza time.svg",
+      "status": "exclu",
+      "label": "Artefact d’export (micro-tracé blanc de 1,3 × 1,1 unités)"
+    },
+    {
+      "id": "ancien-logo",
+      "status": "reference",
+      "dir": "05_references",
+      "file": "pizza-time_ancien-logo_512px.png",
+      "label": "Ancien logo (PNG 512 px, non retouché)",
+      "src": "cropped-pizzatime-512x512-logo.png",
+      "path": "logos/05_references/pizza-time_ancien-logo_512px.png",
+      "width": 512,
+      "height": 351,
+      "ratio": 1.4587
+    }
+  ],
+  "mockups": [
+    {
+      "id": "avant-angle",
+      "src": "Argenteuil.jpg",
+      "file": "avant_facade-angle.jpg",
+      "kind": "avant",
+      "label": "Façade existante, vue d’angle",
+      "path": "mockups/avant_facade-angle.jpg",
+      "width": 1360,
+      "height": 1020
+    },
+    {
+      "id": "apres-angle",
+      "src": "Façade Pizza Time rénovée-2.png",
+      "file": "apres_facade-angle.jpg",
+      "kind": "apres",
+      "pair": "avant-angle",
+      "label": "Façade rénovée, vue d’angle",
+      "path": "mockups/apres_facade-angle.jpg",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "id": "avant-rue",
+      "src": "pizza-time_29554_489.webp",
+      "file": "avant_facade-rue.jpg",
+      "kind": "avant",
+      "label": "Façade existante, vue de rue",
+      "path": "mockups/avant_facade-rue.jpg",
+      "width": 1022,
+      "height": 683
+    },
+    {
+      "id": "apres-rue",
+      "src": "Façade Pizza Time en vert et rouge-1.png",
+      "file": "apres_facade-rue.jpg",
+      "kind": "apres",
+      "pair": "avant-rue",
+      "label": "Façade rénovée, vue de rue",
+      "path": "mockups/apres_facade-rue.jpg",
+      "width": 1534,
+      "height": 1025
+    },
+    {
+      "id": "facade-lettrage",
+      "src": "Nouvelle identité de façade Pizza Time-3.png",
+      "file": "apres_facade-rue_lettres-boitiers.jpg",
+      "kind": "situation",
+      "label": "Façade en lettres boîtiers",
+      "path": "mockups/apres_facade-rue_lettres-boitiers.jpg",
+      "width": 1535,
+      "height": 1025
+    },
+    {
+      "id": "boites-tenue",
+      "src": "Identité Pizza Time sur boîtes à pizza-3.png",
+      "file": "situation_boites-rouges.jpg",
+      "kind": "situation",
+      "label": "Boîtes rouges et t-shirt",
+      "path": "mockups/situation_boites-rouges.jpg",
+      "width": 1101,
+      "height": 1429
+    },
+    {
+      "id": "boites-pile",
+      "src": "Empilement de boîtes Pizza Time-1.png",
+      "file": "situation_boites-empilees.jpg",
+      "kind": "situation",
+      "label": "Boîtes crème empilées",
+      "path": "mockups/situation_boites-empilees.jpg",
+      "width": 1103,
+      "height": 1426
+    },
+    {
+      "id": "boites-livraison",
+      "src": "Livraison Pizza Time, quatre boîtes vertes-2.png",
+      "file": "situation_livraison.jpg",
+      "kind": "situation",
+      "label": "Livraison, boîtes vertes",
+      "path": "mockups/situation_livraison.jpg",
+      "width": 1122,
+      "height": 1402
+    }
+  ],
+  "plv": [
+    {
+      "id": "plv-banniere-rouge",
+      "src": "Plan de travail 1.jpg",
+      "file": "plv_banniere_rouge.jpg",
+      "label": "Bannière — fond rouge",
+      "path": "plv/plv_banniere_rouge.jpg",
+      "width": 2600,
+      "height": 667
+    },
+    {
+      "id": "plv-banniere-creme",
+      "src": "Plan de travail 2.jpg",
+      "file": "plv_banniere_creme.jpg",
+      "label": "Bannière — fond crème et rayures",
+      "path": "plv/plv_banniere_creme.jpg",
+      "width": 2600,
+      "height": 667
+    },
+    {
+      "id": "plv-story",
+      "src": "Plan de travail 3.jpg",
+      "file": "plv_story.jpg",
+      "label": "Story verticale",
+      "path": "plv/plv_story.jpg",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "icons": [
+    {
+      "id": "picto-salade-rouge",
+      "name": "salade",
+      "label": "Salade",
+      "way": "rouge",
+      "src": "Fichier 26pizza time.svg",
+      "file": "pizza-time_picto_salade_rouge.svg",
+      "path": "pictos/pizza-time_picto_salade_rouge.svg",
+      "width": 435.98,
+      "height": 405.1
+    },
+    {
+      "id": "picto-salade-vert",
+      "name": "salade",
+      "label": "Salade",
+      "way": "vert",
+      "src": "Fichier 32pizza time.svg",
+      "file": "pizza-time_picto_salade_vert.svg",
+      "path": "pictos/pizza-time_picto_salade_vert.svg",
+      "width": 435.98,
+      "height": 405.1
+    },
+    {
+      "id": "picto-salade-creme",
+      "name": "salade",
+      "label": "Salade",
+      "way": "creme",
+      "src": "Fichier 38pizza time.svg",
+      "file": "pizza-time_picto_salade_creme.svg",
+      "path": "pictos/pizza-time_picto_salade_creme.svg",
+      "width": 342.37,
+      "height": 315.81
+    },
+    {
+      "id": "picto-boisson-rouge",
+      "name": "boisson",
+      "label": "Boisson",
+      "way": "rouge",
+      "src": "Fichier 27pizza time.svg",
+      "file": "pizza-time_picto_boisson_rouge.svg",
+      "path": "pictos/pizza-time_picto_boisson_rouge.svg",
+      "width": 291.13,
+      "height": 441.99
+    },
+    {
+      "id": "picto-boisson-vert",
+      "name": "boisson",
+      "label": "Boisson",
+      "way": "vert",
+      "src": "Fichier 33pizza time.svg",
+      "file": "pizza-time_picto_boisson_vert.svg",
+      "path": "pictos/pizza-time_picto_boisson_vert.svg",
+      "width": 291.13,
+      "height": 441.99
+    },
+    {
+      "id": "picto-boisson-creme",
+      "name": "boisson",
+      "label": "Boisson",
+      "way": "creme",
+      "src": "Fichier 39pizza time.svg",
+      "file": "pizza-time_picto_boisson_creme.svg",
+      "path": "pictos/pizza-time_picto_boisson_creme.svg",
+      "width": 217.76,
+      "height": 347.54
+    },
+    {
+      "id": "picto-tenders-rouge",
+      "name": "tenders",
+      "label": "Tenders",
+      "way": "rouge",
+      "src": "Fichier 28pizza time.svg",
+      "file": "pizza-time_picto_tenders_rouge.svg",
+      "path": "pictos/pizza-time_picto_tenders_rouge.svg",
+      "width": 422.47,
+      "height": 389.03
+    },
+    {
+      "id": "picto-tenders-vert",
+      "name": "tenders",
+      "label": "Tenders",
+      "way": "vert",
+      "src": "Fichier 34pizza time.svg",
+      "file": "pizza-time_picto_tenders_vert.svg",
+      "path": "pictos/pizza-time_picto_tenders_vert.svg",
+      "width": 422.47,
+      "height": 389.03
+    },
+    {
+      "id": "picto-tenders-creme",
+      "name": "tenders",
+      "label": "Tenders",
+      "way": "creme",
+      "src": "Fichier 40pizza time.svg",
+      "file": "pizza-time_picto_tenders_creme.svg",
+      "path": "pictos/pizza-time_picto_tenders_creme.svg",
+      "width": 330.73,
+      "height": 301.98
+    },
+    {
+      "id": "picto-dessert-rouge",
+      "name": "dessert",
+      "label": "Dessert",
+      "way": "rouge",
+      "src": "Fichier 29pizza time.svg",
+      "file": "pizza-time_picto_dessert_rouge.svg",
+      "path": "pictos/pizza-time_picto_dessert_rouge.svg",
+      "width": 374.92,
+      "height": 417.26
+    },
+    {
+      "id": "picto-dessert-vert",
+      "name": "dessert",
+      "label": "Dessert",
+      "way": "vert",
+      "src": "Fichier 35pizza time.svg",
+      "file": "pizza-time_picto_dessert_vert.svg",
+      "path": "pictos/pizza-time_picto_dessert_vert.svg",
+      "width": 374.92,
+      "height": 417.26
+    },
+    {
+      "id": "picto-dessert-creme",
+      "name": "dessert",
+      "label": "Dessert",
+      "way": "creme",
+      "src": "Fichier 41pizza time.svg",
+      "file": "pizza-time_picto_dessert_creme.svg",
+      "path": "pictos/pizza-time_picto_dessert_creme.svg",
+      "width": 289.86,
+      "height": 326.26
+    },
+    {
+      "id": "picto-sandwich-rouge",
+      "name": "sandwich",
+      "label": "Sandwich",
+      "way": "rouge",
+      "src": "Fichier 30pizza time.svg",
+      "file": "pizza-time_picto_sandwich_rouge.svg",
+      "path": "pictos/pizza-time_picto_sandwich_rouge.svg",
+      "width": 438.91,
+      "height": 324.89
+    },
+    {
+      "id": "picto-sandwich-vert",
+      "name": "sandwich",
+      "label": "Sandwich",
+      "way": "vert",
+      "src": "Fichier 36pizza time.svg",
+      "file": "pizza-time_picto_sandwich_vert.svg",
+      "path": "pictos/pizza-time_picto_sandwich_vert.svg",
+      "width": 438.91,
+      "height": 324.89
+    },
+    {
+      "id": "picto-sandwich-creme",
+      "name": "sandwich",
+      "label": "Sandwich",
+      "way": "creme",
+      "src": "Fichier 42pizza time.svg",
+      "file": "pizza-time_picto_sandwich_creme.svg",
+      "path": "pictos/pizza-time_picto_sandwich_creme.svg",
+      "width": 344.88,
+      "height": 246.8
+    },
+    {
+      "id": "picto-pizza-rouge",
+      "name": "pizza",
+      "label": "Pizza",
+      "way": "rouge",
+      "src": "Fichier 31pizza time.svg",
+      "file": "pizza-time_picto_pizza_rouge.svg",
+      "path": "pictos/pizza-time_picto_pizza_rouge.svg",
+      "width": 418.34,
+      "height": 388.54
+    },
+    {
+      "id": "picto-pizza-vert",
+      "name": "pizza",
+      "label": "Pizza",
+      "way": "vert",
+      "src": "Fichier 37pizza time.svg",
+      "file": "pizza-time_picto_pizza_vert.svg",
+      "path": "pictos/pizza-time_picto_pizza_vert.svg",
+      "width": 418.34,
+      "height": 388.54
+    },
+    {
+      "id": "picto-pizza-creme",
+      "name": "pizza",
+      "label": "Pizza",
+      "way": "creme",
+      "src": "Fichier 43pizza time.svg",
+      "file": "pizza-time_picto_pizza_creme.svg",
+      "path": "pictos/pizza-time_picto_pizza_creme.svg",
+      "width": 327.22,
+      "height": 301.56
+    }
+  ],
+  "motifs": [
+    {
+      "n": 44,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_creme.svg",
+      "label": "Lettrage ton sur ton — crème",
+      "show": true,
+      "id": "motif-44",
+      "src": "Fichier 44pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_creme.svg",
+      "width": 369.53,
+      "height": 207.86
+    },
+    {
+      "n": 45,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_rouge.svg",
+      "label": "Lettrage ton sur ton — rouge",
+      "show": true,
+      "id": "motif-45",
+      "src": "Fichier 45pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_rouge.svg",
+      "width": 369.53,
+      "height": 207.86
+    },
+    {
+      "n": 46,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_vert.svg",
+      "label": "Lettrage ton sur ton — vert",
+      "show": true,
+      "id": "motif-46",
+      "src": "Fichier 46pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_vert.svg",
+      "width": 369.53,
+      "height": 207.86
+    },
+    {
+      "n": 47,
+      "file": "pizza-time_motif_cartouches_vert.svg",
+      "label": "Cartouches — vert",
+      "show": true,
+      "id": "motif-47",
+      "src": "Fichier 47pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_vert.svg",
+      "width": 370.09,
+      "height": 207.86
+    },
+    {
+      "n": 48,
+      "file": "pizza-time_motif_cartouches_rouge.svg",
+      "label": "Cartouches — rouge",
+      "id": "motif-48",
+      "src": "Fichier 48pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_rouge.svg",
+      "width": 370.09,
+      "height": 207.86
+    },
+    {
+      "n": 49,
+      "file": "pizza-time_motif_cartouches_creme.svg",
+      "label": "Cartouches — crème",
+      "id": "motif-49",
+      "src": "Fichier 49pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_creme.svg",
+      "width": 370.09,
+      "height": 207.86
+    },
+    {
+      "n": 50,
+      "file": "pizza-time_motif_rayures.svg",
+      "label": "Rayures",
+      "show": true,
+      "id": "motif-50",
+      "src": "Fichier 50pizza time.svg",
+      "path": "motifs/pizza-time_motif_rayures.svg",
+      "width": 376.63,
+      "height": 202.95
+    },
+    {
+      "n": 51,
+      "file": "pizza-time_motif_lettrage-cartouche_creme.svg",
+      "label": "Lettrage en cartouches — crème",
+      "show": true,
+      "id": "motif-51",
+      "src": "Fichier 51pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-cartouche_creme.svg",
+      "width": 370.39,
+      "height": 207.86
+    },
+    {
+      "n": 52,
+      "file": "pizza-time_motif_lettrage-decale_creme.svg",
+      "label": "Lettrage décalé — crème",
+      "show": true,
+      "id": "motif-52",
+      "src": "Fichier 52pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-decale_creme.svg",
+      "width": 369.53,
+      "height": 208.91
+    },
+    {
+      "n": 53,
+      "file": "pizza-time_motif_lettrage-empile_creme.svg",
+      "label": "Lettrage empilé — crème",
+      "show": true,
+      "id": "motif-53",
+      "src": "Fichier 53pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-empile_creme.svg",
+      "width": 370.3,
+      "height": 208.54
+    },
+    {
+      "n": 54,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_creme_sans-fond.svg",
+      "label": "Lettrage ton sur ton — crème, sans fond",
+      "id": "motif-54",
+      "src": "Fichier 54pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_creme_sans-fond.svg",
+      "width": 368.98,
+      "height": 207.59
+    },
+    {
+      "n": 55,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_rouge_sans-fond.svg",
+      "label": "Lettrage ton sur ton — rouge, sans fond",
+      "id": "motif-55",
+      "src": "Fichier 55pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_rouge_sans-fond.svg",
+      "width": 368.98,
+      "height": 207.59
+    },
+    {
+      "n": 56,
+      "file": "pizza-time_motif_lettrage-ton-sur-ton_vert_sans-fond.svg",
+      "label": "Lettrage ton sur ton — vert, sans fond",
+      "id": "motif-56",
+      "src": "Fichier 56pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-ton-sur-ton_vert_sans-fond.svg",
+      "width": 368.98,
+      "height": 207.59
+    },
+    {
+      "n": 57,
+      "file": "pizza-time_motif_cartouches_vert_sans-fond.svg",
+      "label": "Cartouches — vert, sans fond",
+      "id": "motif-57",
+      "src": "Fichier 57pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_vert_sans-fond.svg",
+      "width": 370.09,
+      "height": 206.23
+    },
+    {
+      "n": 58,
+      "file": "pizza-time_motif_cartouches_rouge_sans-fond.svg",
+      "label": "Cartouches — rouge, sans fond",
+      "id": "motif-58",
+      "src": "Fichier 58pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_rouge_sans-fond.svg",
+      "width": 370.09,
+      "height": 206.23
+    },
+    {
+      "n": 59,
+      "file": "pizza-time_motif_cartouches_creme_sans-fond.svg",
+      "label": "Cartouches — crème, sans fond",
+      "id": "motif-59",
+      "src": "Fichier 59pizza time.svg",
+      "path": "motifs/pizza-time_motif_cartouches_creme_sans-fond.svg",
+      "width": 370.09,
+      "height": 206.23
+    },
+    {
+      "n": 60,
+      "file": "pizza-time_motif_lettrage-decale_sans-fond.svg",
+      "label": "Lettrage décalé — sans fond",
+      "id": "motif-60",
+      "src": "Fichier 60pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-decale_sans-fond.svg",
+      "width": 368.13,
+      "height": 208.91
+    },
+    {
+      "n": 61,
+      "file": "pizza-time_motif_lettrage-empile_sans-fond.svg",
+      "label": "Lettrage empilé — sans fond",
+      "id": "motif-61",
+      "src": "Fichier 61pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-empile_sans-fond.svg",
+      "width": 369.92,
+      "height": 208.54
+    },
+    {
+      "n": 62,
+      "file": "pizza-time_motif_lettrage-cartouche_sans-fond.svg",
+      "label": "Lettrage en cartouches — sans fond",
+      "id": "motif-62",
+      "src": "Fichier 62pizza time.svg",
+      "path": "motifs/pizza-time_motif_lettrage-cartouche_sans-fond.svg",
+      "width": 370.39,
+      "height": 207.28
+    }
+  ],
+  "packs": {
+    "pictos": "logos/pizza-time_pictogrammes.zip",
+    "motifs": "logos/pizza-time_motifs.zip",
+    "logos": "logos/pizza-time_logos-valides.zip",
+    "composants": "logos/pizza-time_kit-composants.zip"
+  },
+  "colorLog": [
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "#fff",
+      "to": "#FFF6E9",
+      "n": 1,
+      "changed": true
+    },
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "#0e4725",
+      "to": "#0E4725",
+      "n": 2,
+      "changed": false
+    },
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "(aucune — noir par défaut)",
+      "to": "#FFF6E9",
+      "n": 3,
+      "changed": true
+    },
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 8pizza time.svg",
+      "file": "pizza-time_logo-principal.svg",
+      "from": "#084027",
+      "to": "#0E4725",
+      "n": 10,
+      "changed": true
+    },
+    {
+      "src": "Fichier 13pizza time.svg",
+      "file": "pizza-time_logo-sans-cadre.svg",
+      "from": "(aucune — noir par défaut)",
+      "to": "#FFF6E9",
+      "n": 1,
+      "changed": true
+    },
+    {
+      "src": "Fichier 13pizza time.svg",
+      "file": "pizza-time_logo-sans-cadre.svg",
+      "from": "#0e4725",
+      "to": "#0E4725",
+      "n": 1,
+      "changed": false
+    },
+    {
+      "src": "Fichier 13pizza time.svg",
+      "file": "pizza-time_logo-sans-cadre.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 13pizza time.svg",
+      "file": "pizza-time_logo-sans-cadre.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 5pizza time.svg",
+      "file": "pizza-time_horizontal_vert.svg",
+      "from": "#0e4725",
+      "to": "#0E4725",
+      "n": 1,
+      "changed": false
+    },
+    {
+      "src": "Fichier 5pizza time.svg",
+      "file": "pizza-time_horizontal_vert.svg",
+      "from": "#fff0de",
+      "to": "#FFF6E9",
+      "n": 1,
+      "changed": true
+    },
+    {
+      "src": "Fichier 5pizza time.svg",
+      "file": "pizza-time_horizontal_vert.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 5pizza time.svg",
+      "file": "pizza-time_horizontal_vert.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 3pizza time.svg",
+      "file": "pizza-time_horizontal_rouge.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 3pizza time.svg",
+      "file": "pizza-time_horizontal_rouge.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 4pizza time.svg",
+      "file": "pizza-time_horizontal_vert-bicolore.svg",
+      "from": "#0e4725",
+      "to": "#0E4725",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 4pizza time.svg",
+      "file": "pizza-time_horizontal_vert-bicolore.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 6pizza time.svg",
+      "file": "pizza-time_horizontal_creme-vert.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 6pizza time.svg",
+      "file": "pizza-time_horizontal_creme-vert.svg",
+      "from": "#084027",
+      "to": "#0E4725",
+      "n": 6,
+      "changed": true
+    },
+    {
+      "src": "Fichier 7pizza time.svg",
+      "file": "pizza-time_horizontal_creme-rouge.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 7pizza time.svg",
+      "file": "pizza-time_horizontal_creme-rouge.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 2pizza time.svg",
+      "file": "pizza-time_horizontal_sans-cadre.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 2pizza time.svg",
+      "file": "pizza-time_horizontal_sans-cadre.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 10pizza time.svg",
+      "file": "pizza-time_signature-lineaire_creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 19,
+      "changed": false
+    },
+    {
+      "src": "Fichier 16pizza time.svg",
+      "file": "pizza-time_cadre_contour-vert.svg",
+      "from": "#0e4725",
+      "to": "#0E4725",
+      "n": 1,
+      "changed": false
+    },
+    {
+      "src": "Fichier 18pizza time.svg",
+      "file": "pizza-time_cadre_fond-creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 1,
+      "changed": false
+    },
+    {
+      "src": "Fichier 19pizza time.svg",
+      "file": "pizza-time_lettrage-empile.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 19pizza time.svg",
+      "file": "pizza-time_lettrage-empile.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 20pizza time.svg",
+      "file": "pizza-time_lettrage-empile_depuis-1999.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 20pizza time.svg",
+      "file": "pizza-time_lettrage-empile_depuis-1999.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 15,
+      "changed": false
+    },
+    {
+      "src": "Fichier 22pizza time.svg",
+      "file": "pizza-time_mot-pizza_logo-principal_creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 23pizza time.svg",
+      "file": "pizza-time_mot-time_logo-principal_rouge.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 24pizza time.svg",
+      "file": "pizza-time_mot-pizza_horizontal_creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 5,
+      "changed": false
+    },
+    {
+      "src": "Fichier 25pizza time.svg",
+      "file": "pizza-time_mot-time_horizontal_creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 4,
+      "changed": false
+    },
+    {
+      "src": "Fichier 12pizza time.svg",
+      "file": "pizza-time_mention-depuis-1999_vert.svg",
+      "from": "#084027",
+      "to": "#0E4725",
+      "n": 10,
+      "changed": true
+    },
+    {
+      "src": "Fichier 21pizza time.svg",
+      "file": "pizza-time_mention-depuis-1999_creme.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 10,
+      "changed": false
+    },
+    {
+      "src": "Fichier 9pizza time.svg",
+      "file": "pizza-time_alternative_cartouche-arrondi.svg",
+      "from": "#084027",
+      "to": "#0E4725",
+      "n": 11,
+      "changed": true
+    },
+    {
+      "src": "Fichier 9pizza time.svg",
+      "file": "pizza-time_alternative_cartouche-arrondi.svg",
+      "from": "#fff0de",
+      "to": "#FFF6E9",
+      "n": 1,
+      "changed": true
+    },
+    {
+      "src": "Fichier 9pizza time.svg",
+      "file": "pizza-time_alternative_cartouche-arrondi.svg",
+      "from": "#fff6e9",
+      "to": "#FFF6E9",
+      "n": 6,
+      "changed": false
+    },
+    {
+      "src": "Fichier 9pizza time.svg",
+      "file": "pizza-time_alternative_cartouche-arrondi.svg",
+      "from": "#c72f27",
+      "to": "#C72F27",
+      "n": 4,
+      "changed": false
+    }
+  ]
+}

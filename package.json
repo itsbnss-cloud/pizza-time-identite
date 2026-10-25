@@ -1,0 +1,18 @@
+{
+  "name": "pizza-time-identite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Présentation de l'identité Pizza Time — site + charte PDF générés depuis une source unique.",
+  "scripts": {
+    "assets": "node scripts/assets.mjs",
+    "build": "node scripts/build.mjs",
+    "pdf": "node scripts/pdf.mjs",
+    "all": "npm run assets && npm run build && npm run pdf",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^4.7.76",
+    "playwright": "1.48.2"
+  }
+}
