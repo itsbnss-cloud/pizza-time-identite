@@ -9,7 +9,8 @@
     "build": "node scripts/build.mjs",
     "pdf": "node scripts/pdf.mjs",
     "all": "npm run assets && npm run build && npm run pdf",
-    "serve": "node scripts/serve.mjs"
+    "serve": "node scripts/serve.mjs",
+    "deploy": "git add -A && (git commit -m 'Mise à jour du site' || true) && git push origin main && git push --force origin $(git subtree split --prefix dist main):refs/heads/gh-pages"
   },
   "devDependencies": {
     "pdfjs-dist": "^4.7.76",

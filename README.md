@@ -58,10 +58,10 @@ Pour mettre le site en ligne après une modification :
 
 ```bash
 npm run all
-git add -A && git commit -m "Mise à jour" && git push
+npm run deploy
 ```
 
-Le workflow `.github/workflows/pages.yml` publie alors `dist/` tel quel (aucune génération côté GitHub). `dist/robots.txt` demande aux moteurs de ne pas indexer le site.
+`npm run deploy` enregistre les changements sur la branche `main`, puis publie le contenu de `dist/` sur la branche `gh-pages`, que GitHub Pages sert directement (mise en ligne en une à deux minutes). `dist/robots.txt` demande aux moteurs de ne pas indexer le site.
 
 Attention : le dépôt et le site sont publics, polices comprises (`dist/fonts/`).
 
